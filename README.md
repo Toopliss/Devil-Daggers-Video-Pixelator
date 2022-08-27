@@ -1,14 +1,15 @@
 # Devil Daggers Video Pixelator
 #### Pixelate your video stream to remove blurry compression and maintain the crispy Devil Daggers look, somewhat
 
-## **Before and After**
 
+## **Before and After**
 | Before  | After |
 | :---: | :---: |
 | ![image](https://user-images.githubusercontent.com/54708757/187011179-57d76885-272f-43f5-9b97-60fea4270991.png) | ![image](https://user-images.githubusercontent.com/54708757/187011187-21ed40af-aeb0-4c08-a2c8-1b05a6fa2374.png) |
 | ![image](https://user-images.githubusercontent.com/54708757/187011788-aff39cb6-3a6c-47cf-bd75-80fcde12a678.png) | ![image](https://user-images.githubusercontent.com/54708757/187011795-809b0046-b955-419c-b9b9-ee55fb9a809e.png) |
 | ![Before](https://i.imgur.com/zuZ6cBh.png)  | ![After](https://i.imgur.com/1MREKz9.png) |
 | ![Before2](https://i.imgur.com/QkFNPCL.png) | ![After2](https://i.imgur.com/zXmvz5C.png) |
+
 
 ## **Works for**
 - Youtube
@@ -17,10 +18,10 @@
 - Vimeo
 - Other HTML5 video sites
 
+
 ## **Limitations**
 - Chrome: Fullscreen only.
 - Chrome: Text in 1080p is butchered.
-- 
 - FireFox: Effect is stream resolution dependent.
 - Firefox: Process has to be done each time you load a new page.
 
