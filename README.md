@@ -9,6 +9,7 @@
 | ![image](https://user-images.githubusercontent.com/54708757/187011788-aff39cb6-3a6c-47cf-bd75-80fcde12a678.png) | ![image](https://user-images.githubusercontent.com/54708757/187011795-809b0046-b955-419c-b9b9-ee55fb9a809e.png) |
 | ![Before](https://i.imgur.com/zuZ6cBh.png)  | ![After](https://i.imgur.com/1MREKz9.png) |
 | ![Before2](https://i.imgur.com/QkFNPCL.png) | ![After2](https://i.imgur.com/zXmvz5C.png) |
+
 *screenshots are from the chrome implementation
 
 ## **Works for**
