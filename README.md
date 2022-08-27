@@ -13,7 +13,7 @@
 *screenshots are from the chrome implementation
 
 ## **Works for**
-- Chrome and FireFox
+- Chrome and Firefox
 - Youtube
 - Twitch
 - Discord streams (Web browser)
@@ -24,7 +24,7 @@
 ## **Limitations**
 - Chrome: Fullscreen only.
 - Chrome: Text in 1080p is butchered.
-- FireFox: Effect is stream resolution dependent.
+- Firefox: Effect is stream resolution dependent.
 - Firefox: Process has to be done each time you load a new page.
 
 
