@@ -29,6 +29,8 @@
 6. Select your SVG filter from the drop down.
 7. Note that reading through the text you pasted will explain how to customise the filter. Currently the filter is tuned for 720p footage.
 
+## **How To (FireFox) - Thanks Autumn**
+1. image-rendering: crisp-edges;
 
 ## **Sources**
 - Original code for svg filter: https://stackoverflow.com/a/37451883
