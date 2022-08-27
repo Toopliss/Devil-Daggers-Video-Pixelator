@@ -11,6 +11,13 @@
 
 ----------------------------------------------------------------------------------------------------------------
 
+## **Limitations**
+- Chrome only
+- Fullscreen only
+- Currently tuned for 1440p only.
+
+----------------------------------------------------------------------------------------------------------------
+
 ## **How To (Chrome)**
 1. Install this chrome extension: https://chrome.google.com/webstore/detail/video-styler-brightness-a/bfmgdnjlifbmedglimhnbhgkefanaiep
 2. Open the extension (click on it in the top right).
@@ -18,6 +25,7 @@
 4. Click "Create new", and name it whatever you want. Something like "DD Pixel" works well.
 5. Copy text from DD_SVG_Pixelate.txt in this repository to the text box, save and go back.
 6. Select your SVG filter from the drop down.
+7. Note that reading through the text you pasted will explain how to customise the filter. Currently the filter is tuned for 720p footage.
 
 ----------------------------------------------------------------------------------------------------------------
 
