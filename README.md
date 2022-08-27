@@ -43,7 +43,6 @@
 5. Copy text from DD_SVG_Pixelate.txt in this repository to the text box, save and go back.
 <br /> ![image](https://user-images.githubusercontent.com/54708757/187010854-54a74d63-29ff-4aec-bdb2-134cd3d48f4f.png)
 <br /> ![image](https://user-images.githubusercontent.com/54708757/187010866-0005eba8-e86c-4989-b263-5ce767cf0305.png)
-<br /> ![image](https://user-images.githubusercontent.com/54708757/187010886-f227da5d-282c-4266-8a68-1f006607ef73.png)
  
 6. Select your SVG filter from the drop down.
 <br /> ![image](https://user-images.githubusercontent.com/54708757/187010914-9dca5536-91f6-4765-9270-29e0aad808c3.png)
