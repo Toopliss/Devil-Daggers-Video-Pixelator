@@ -15,6 +15,8 @@ How to pixelate your video stream to remove blurry compression, tuned for Devil 
 
 #### **How To (FireFox)**
 
+----------------------------------------------------------------------------------------------------------------
+
 **Sources**
 - Original code for svg filter: https://stackoverflow.com/a/37451883
 - Original code for python png creator: https://gist.github.com/darka/061cfac5e95b80b078b769eaae7adf84
