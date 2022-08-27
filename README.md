@@ -10,10 +10,8 @@
 | ![Before](https://i.imgur.com/zuZ6cBh.png)  | ![After](https://i.imgur.com/1MREKz9.png) |
 | ![Before2](https://i.imgur.com/QkFNPCL.png) | ![After2](https://i.imgur.com/zXmvz5C.png) |
 
-*screenshots are from the chrome implementation
-
 ## **Works for**
-- Chrome and Firefox
+- Chrome
 - Youtube
 - Twitch
 - Discord streams (Web browser)
@@ -24,8 +22,6 @@
 ## **Limitations**
 - Chrome: Fullscreen only.
 - Chrome: Text in 1080p is butchered.
-- Firefox: Effect is stream resolution dependent.
-- Firefox: Process has to be done each time you load a new page.
 
 
 ## **How To (Chrome)**
@@ -47,19 +43,8 @@
 6. Select your SVG filter from the drop down.
 <br /> ![image](https://user-images.githubusercontent.com/54708757/187010914-9dca5536-91f6-4765-9270-29e0aad808c3.png)
 
-
-## **How To (FireFox) - Thanks** [RaykaRoo](https://github.com/RaykaRoo)!
-1. Inspect Element anywhere on the page
-<br />![image](https://user-images.githubusercontent.com/54708757/187010716-f6bb0778-633d-49f3-a91a-5ebcff6be601.png)
-2. Select the head element at the top 
-<br /> ![image](https://user-images.githubusercontent.com/54708757/187010597-c74f21b6-181b-459c-a4a0-4bdd62263cb0.png)
-3. Add this line to the inherited html elements "image-rendering: crisp-edges;" 
-<br /> ![image](https://user-images.githubusercontent.com/54708757/187010656-96c06298-9bfe-4e87-9bb2-a0afa56878f7.png)
-
-
 ## **Sources**
 - Original code for svg filter: https://stackoverflow.com/a/37451883
 - Original code for python png creator: https://gist.github.com/darka/061cfac5e95b80b078b769eaae7adf84
 - DD run on youtube - Thanks [Axe](https://www.youtube.com/channel/UCtLlAC2hI9nJ9nLqk7eL8Dw): https://www.youtube.com/watch?v=QfrGCr5xa68
 - DD run on twitch - Thanks [Deergirl](https://www.twitch.tv/deergiri): https://www.twitch.tv/videos/1571725516
-- Thanks again to [RaykaRoo](https://github.com/RaykaRoo) for finding a way to get this effect in FireFox.
