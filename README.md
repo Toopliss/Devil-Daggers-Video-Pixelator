@@ -6,7 +6,7 @@
 - Twitch
 - Discord streams (Web browser)
 - Vimeo
-- Other html5 players
+- Other HTML5 video sites
 
 ## **Before and After**
 
