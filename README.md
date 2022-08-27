@@ -3,6 +3,11 @@
 
 ----------------------------------------------------------------------------------------------------------------
 
+## **Before and After (Chrome)**
+![Before](https://i.imgur.com/zuZ6cBh.png)
+![After](https://i.imgur.com/1MREKz9.png)
+----------------------------------------------------------------------------------------------------------------
+
 ## **How To (Chrome)**
 1. Install this chrome extension: https://chrome.google.com/webstore/detail/video-styler-brightness-a/bfmgdnjlifbmedglimhnbhgkefanaiep
 2. Open the extension (click on it in the top right).
@@ -10,10 +15,6 @@
 4. Click "Create new", and name it whatever you want. Something like "DD Pixel" works well.
 5. Copy text from DD_SVG_Pixelate.txt in this repository to the text box, save and go back.
 6. Select your SVG filter from the drop down.
-
-----------------------------------------------------------------------------------------------------------------
-
-## **How To (FireFox)**
 
 ----------------------------------------------------------------------------------------------------------------
 
