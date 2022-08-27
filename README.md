@@ -5,18 +5,16 @@
 
 | Before  | After |
 | :---: | :---: |
-| ![image](https://user-images.githubusercontent.com/54708757/187011788-aff39cb6-3a6c-47cf-bd75-80fcde12a678.png) | ![image](https://user-images.githubusercontent.com/54708757/187011795-809b0046-b955-419c-b9b9-ee55fb9a809e.png) |
 | ![image](https://user-images.githubusercontent.com/54708757/187011179-57d76885-272f-43f5-9b97-60fea4270991.png) | ![image](https://user-images.githubusercontent.com/54708757/187011187-21ed40af-aeb0-4c08-a2c8-1b05a6fa2374.png) |
+| ![image](https://user-images.githubusercontent.com/54708757/187011788-aff39cb6-3a6c-47cf-bd75-80fcde12a678.png) | ![image](https://user-images.githubusercontent.com/54708757/187011795-809b0046-b955-419c-b9b9-ee55fb9a809e.png) |
 | ![Before](https://i.imgur.com/zuZ6cBh.png)  | ![After](https://i.imgur.com/1MREKz9.png) |
 | ![Before2](https://i.imgur.com/QkFNPCL.png) | ![After2](https://i.imgur.com/zXmvz5C.png) |
 
 
-
 ## **Limitations**
-- Chrome is fullscreen only.
-- Currently tuned for 1440p.
-- Text in 1080p is quite... butchered, for now.
-- 4k is untested.
+- Chrome: Fullscreen only.
+- Chrome: Text in 1080p is butchered.
+- FireFox: Effect is stream resolution dependent.
 
 
 ## **How To (Chrome)**
@@ -47,8 +45,10 @@
 <br /> ![image](https://user-images.githubusercontent.com/54708757/187010597-c74f21b6-181b-459c-a4a0-4bdd62263cb0.png)
 3. Add this line to the inherited html elements "image-rendering: crisp-edges;" 
 <br /> ![image](https://user-images.githubusercontent.com/54708757/187010656-96c06298-9bfe-4e87-9bb2-a0afa56878f7.png)
-  
+
 
 ## **Sources**
 - Original code for svg filter: https://stackoverflow.com/a/37451883
 - Original code for python png creator: https://gist.github.com/darka/061cfac5e95b80b078b769eaae7adf84
+- DD run on youtube https://www.youtube.com/watch?v=QfrGCr5xa68
+- DD run on twitch https://www.twitch.tv/deergiri
