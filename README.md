@@ -40,7 +40,7 @@
 <br /> ![image](https://user-images.githubusercontent.com/54708757/187010914-9dca5536-91f6-4765-9270-29e0aad808c3.png)
 
 
-## **How To (FireFox) - Thanks [RaykaRoo](https://github.com/RaykaRoo) **
+## **How To (FireFox) - Thanks ** [RaykaRoo](https://github.com/RaykaRoo)
 1. Inspect Element anywhere on the page
 <br />![image](https://user-images.githubusercontent.com/54708757/187010716-f6bb0778-633d-49f3-a91a-5ebcff6be601.png)
 2. Select the head element at the top 
