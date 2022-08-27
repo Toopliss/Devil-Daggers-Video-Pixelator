@@ -15,6 +15,7 @@
 - Chrome: Fullscreen only.
 - Chrome: Text in 1080p is butchered.
 - FireFox: Effect is stream resolution dependent.
+- Firefox: Has to be done each time you load a new page.
 
 
 ## **How To (Chrome)**
