@@ -30,6 +30,6 @@
 7. Note that reading through the text you pasted will explain how to customise the filter. Currently the filter is tuned for 720p footage.
 
 
-**Sources**
+## **Sources**
 - Original code for svg filter: https://stackoverflow.com/a/37451883
 - Original code for python png creator: https://gist.github.com/darka/061cfac5e95b80b078b769eaae7adf84
