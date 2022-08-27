@@ -26,8 +26,10 @@
 
 ## **How To (FireFox) - Thanks Autumn**
 1. Inspect Element
-2. Select the head element at the top ![image](https://user-images.githubusercontent.com/54708757/187010597-c74f21b6-181b-459c-a4a0-4bdd62263cb0.png)
-3. Add this line to the inherited html elements "image-rendering: crisp-edges;" ![image](https://user-images.githubusercontent.com/54708757/187010656-96c06298-9bfe-4e87-9bb2-a0afa56878f7.png)
+2. Select the head element at the top 
+![image](https://user-images.githubusercontent.com/54708757/187010597-c74f21b6-181b-459c-a4a0-4bdd62263cb0.png)
+3. Add this line to the inherited html elements "image-rendering: crisp-edges;" 
+![image](https://user-images.githubusercontent.com/54708757/187010656-96c06298-9bfe-4e87-9bb2-a0afa56878f7.png)
   
 
 ## **Sources**
