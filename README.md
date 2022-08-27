@@ -3,7 +3,7 @@
 
 ----------------------------------------------------------------------------------------------------------------
 
-#### **How To (Chrome)**
+## **How To (Chrome)**
 1. Install this chrome extension: https://chrome.google.com/webstore/detail/video-styler-brightness-a/bfmgdnjlifbmedglimhnbhgkefanaiep
 2. Open the extension (click on it in the top right).
 3. Click on "Customize" in the SVG Filter options.
@@ -13,7 +13,7 @@
 
 ----------------------------------------------------------------------------------------------------------------
 
-#### **How To (FireFox)**
+## **How To (FireFox)**
 
 ----------------------------------------------------------------------------------------------------------------
 
