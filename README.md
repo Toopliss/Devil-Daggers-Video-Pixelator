@@ -4,7 +4,8 @@
 ## **Works for**
 - Youtube
 - Twitch
-- Discord
+- Discord (Web browser)
+- Where else are you watching DD content
 
 ## **Before and After**
 
