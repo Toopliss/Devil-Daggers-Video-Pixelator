@@ -13,6 +13,7 @@
 *screenshots are from the chrome implementation
 
 ## **Works for**
+- Chrome and FireFox
 - Youtube
 - Twitch
 - Discord streams (Web browser)
