@@ -12,7 +12,7 @@ Pre-pixellate sharpening.
 <feConvolveMatrix
   order="3" kernelMatrix="
      1  -1   1
-    -1  -1  -1
+    -1  -2  -1
      1  -1   1" result="smoothed">
 </feConvolveMatrix>
 
