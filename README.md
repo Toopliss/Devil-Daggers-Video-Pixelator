@@ -23,12 +23,12 @@
 4. Click "Create new", and name it whatever you want. Something like "DD Pixel" works well.
 5. Copy text from DD_SVG_Pixelate.txt in this repository to the text box, save and go back.
 6. Select your SVG filter from the drop down.
-7. Note that reading through the text you pasted will explain how to customise the filter. Currently the filter is tuned for 720p footage.
 
 ## **How To (FireFox) - Thanks Autumn**
 1. Inspect Element
-2. 
-3. image-rendering: crisp-edges;
+2. Select the head element at the top ![image](https://user-images.githubusercontent.com/54708757/187010597-c74f21b6-181b-459c-a4a0-4bdd62263cb0.png)
+3. Add this line to the inherited html elements "image-rendering: crisp-edges;" ![image](https://user-images.githubusercontent.com/54708757/187010656-96c06298-9bfe-4e87-9bb2-a0afa56878f7.png)
+  
 
 ## **Sources**
 - Original code for svg filter: https://stackoverflow.com/a/37451883
