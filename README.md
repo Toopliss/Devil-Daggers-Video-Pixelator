@@ -1,13 +1,6 @@
 # Devil Daggers Video Pixelator
 ### *How to pixelate your video stream to remove blurry compression and maintain the crispy Devil Daggers look, somewhat*
 
-## **Works for**
-- Youtube
-- Twitch
-- Discord streams (Web browser)
-- Vimeo
-- Other HTML5 video sites
-
 ## **Before and After**
 
 | Before  | After |
@@ -17,12 +10,18 @@
 | ![Before](https://i.imgur.com/zuZ6cBh.png)  | ![After](https://i.imgur.com/1MREKz9.png) |
 | ![Before2](https://i.imgur.com/QkFNPCL.png) | ![After2](https://i.imgur.com/zXmvz5C.png) |
 
+## **Works for**
+- Youtube
+- Twitch
+- Discord streams (Web browser)
+- Vimeo
+- Other HTML5 video sites
 
 ## **Limitations**
 - Chrome: Fullscreen only.
 - Chrome: Text in 1080p is butchered.
 - FireFox: Effect is stream resolution dependent.
-- Firefox: Has to be done each time you load a new page.
+- Firefox: Process has to be done each time you load a new page.
 
 
 ## **How To (Chrome)**
