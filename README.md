@@ -18,14 +18,27 @@
 
 ## **How To (Chrome)**
 1. Install this chrome extension: https://chrome.google.com/webstore/detail/video-styler-brightness-a/bfmgdnjlifbmedglimhnbhgkefanaiep
+
 2. Open the extension menu (click on it in the top right).
+<br /> ![image](https://user-images.githubusercontent.com/54708757/187010776-d8c804d4-597e-42b7-9fb0-da907c8dd5c3.png)
+
 3. Click on "Customize" in the SVG Filter options.
+<br /> ![image](https://user-images.githubusercontent.com/54708757/187010789-82de2331-66d6-4ba5-8691-f3e08d3db48a.png)
+
 4. Click "Create new", and name it whatever you want. Something like "DD Pixel" works well.
+<br /> ![image](https://user-images.githubusercontent.com/54708757/187010800-a2dfb3af-d01c-4189-bca4-20272731ea28.png)
+
 5. Copy text from DD_SVG_Pixelate.txt in this repository to the text box, save and go back.
+<br /> ![image](https://user-images.githubusercontent.com/54708757/187010854-54a74d63-29ff-4aec-bdb2-134cd3d48f4f.png)
+<br /> ![image](https://user-images.githubusercontent.com/54708757/187010866-0005eba8-e86c-4989-b263-5ce767cf0305.png)
+<br /> ![image](https://user-images.githubusercontent.com/54708757/187010886-f227da5d-282c-4266-8a68-1f006607ef73.png)
+ 
 6. Select your SVG filter from the drop down.
+<br /> ![image](https://user-images.githubusercontent.com/54708757/187010914-9dca5536-91f6-4765-9270-29e0aad808c3.png)
+
 
 ## **How To (FireFox) - Thanks Autumn**
-1. Inspect Element
+1. Inspect Element anywhere on the page
 <br />![image](https://user-images.githubusercontent.com/54708757/187010716-f6bb0778-633d-49f3-a91a-5ebcff6be601.png)
 2. Select the head element at the top 
 <br /> ![image](https://user-images.githubusercontent.com/54708757/187010597-c74f21b6-181b-459c-a4a0-4bdd62263cb0.png)
