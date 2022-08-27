@@ -1,0 +1,13 @@
+<feConvolveMatrix
+  order="3" kernelMatrix="
+     1  -1   1
+    -1  -2  -1
+     1  -1   1" result="smoothed">
+</feConvolveMatrix>
+
+<feGaussianBlur stdDeviation="0" in="smoothed" result="smoothed" />
+
+<feImage width="5" height="5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAIAAADZSiLoAAAAH0lEQVR4nA3GoQEAAAyDMK5Go3v1FhU2Gg4Whf0kUQ6OqgkBYq8jUQAAAABJRU5ErkJggg==" result="displacement-map" />
+<feTile in="displacement-map" result="pixelate-map" />
+<feDisplacementMap in="smoothed" in2="pixelate-map" xChannelSelector="R" yChannelSelector="G" scale="50" result="pre-final"/>
+<feComposite operator="in" in2="SourceGraphic"/>
