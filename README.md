@@ -1,5 +1,5 @@
 # Devil Daggers Video Pixelator
-### *Pixelate your video stream to remove blurry compression and maintain the crispy Devil Daggers look, some what
+#### Pixelate your video stream to remove blurry compression and maintain the crispy Devil Daggers look, some what
 
 ## **Before and After**
 
