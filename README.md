@@ -52,4 +52,4 @@
 - Original code for svg filter: https://stackoverflow.com/a/37451883
 - Original code for python png creator: https://gist.github.com/darka/061cfac5e95b80b078b769eaae7adf84
 - DD run on youtube - Thanks [Axe](https://www.youtube.com/channel/UCtLlAC2hI9nJ9nLqk7eL8Dw): https://www.youtube.com/watch?v=QfrGCr5xa68
-- DD run on twitch - Thanks [Deergiri](https://www.twitch.tv/deergiri): https://www.twitch.tv/videos/1571725516
+- DD run on twitch - Thanks [Deergirl](https://www.twitch.tv/deergiri): https://www.twitch.tv/videos/1571725516
