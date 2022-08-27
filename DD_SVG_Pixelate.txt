@@ -1,0 +1,59 @@
+<!-- 
+Pre-pixellate sharpening.
+ 
+- Change middle value closer to 0 to increase sharpening, and further from 0 to decrease sharpening.
+ 
+- Keep it negative for expected sharpening effect, but it's fun to mess around with.
+ 
+- To disable all image sharpening, comment out the feConvolveMatrix tags like these lines have been commented out.
+ 
+- Note that these values are VERY sensitive to changes in stream resolution. Appropriate sharpening at low resolution will be over sharpening at high resolution. For this reason I have left it at a low amount of sharpening which will still slightly err on the high end if watching at 1440p+.
+-->
+<feConvolveMatrix
+  order="3" kernelMatrix="
+     1  -1   1
+    -1  -1  -1
+     1  -1   1" result="smoothed">
+</feConvolveMatrix>
+
+
+<!-- 
+Pre-pixellate blurring
+
+- Not recommended, included just for fun.
+
+- Higher stdDeviation results in higher blurring.
+
+- 0 is disabled (still runs though so comment it out if experiencing performance issues). 
+
+- Negative values act the same as 0.
+-->
+<feGaussianBlur stdDeviation="0" in="smoothed" result="smoothed" />
+
+
+<!-- 
+Pixellisation (finally)
+
+- Takes in an the source images x and y coordinates, and a displacement map (special .png) which has been tiled across your screen. 
+- For each pixel going out to your display (NOT stream res, just your display), it uses the tiled displacement map's Red and Green colour channels to tell the computer where in the original yt video to actually get the colours from.
+- Note that the "0" / "origin" values are RGB (128, 128, 0).
+- Note that this implementation is currently imperfect as the DD resolution doesn't work with tiling. This might be fixed if people actually use this filter. Otherwise, I don't think it makes enough of a difference for me to care.
+
+- Width and height should be the same, but don't have to in all cases.
+
+- Width and height values determine the size of the "pixels" that you see, measured in your screen res's pixels.
+
+- Consider changing width and height values to 4 or 6. They might look better to you.
+
+- You might find better results by changing the scale value too. More pixellisation can be achieved using scale>50, but is not recommended as the png was made for 5x5, 50% scale.
+
+- The image png is loaded in as png in base64. This means that the png file is actually just a string which has the same data as a png file. This saves us from having to pull data from another site.
+
+- Check out my GitHub page for information on how this png works and was generated https://github.com/toopliss
+
+- Primarily based off of the responses to this question: https://stackoverflow.com/questions/37451189/can-one-pixelate-images-with-an-svg-filter
+-->
+<feImage width="5" height="5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAIAAADZSiLoAAAAH0lEQVR4nA3GoQEAAAyDMK5Go3v1FhU2Gg4Whf0kUQ6OqgkBYq8jUQAAAABJRU5ErkJggg==" result="displacement-map" />
+<feTile in="displacement-map" result="pixelate-map" />
+<feDisplacementMap in="smoothed" in2="pixelate-map" xChannelSelector="R" yChannelSelector="G" scale="50" result="pre-final"/>
+<feComposite operator="in" in2="SourceGraphic"/>
